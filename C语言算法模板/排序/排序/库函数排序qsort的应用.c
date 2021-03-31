@@ -1,4 +1,4 @@
-#include"Head.h"
+//#include"Head.h"
 //#include<stdlib.h>
 //// qsort默认，比较函数的结果大于是正数--这样最终qsort得到的是升序
 //void Print(int arr[])
@@ -7,7 +7,7 @@
 //    for (i = 0; i < 5; i++)
 //        printf("%d ", arr[i]);
 //}
-//int com_int(void* e1, void* e2)
+//int com_int(const void* e1,const void* e2)
 //{
 //    return -(*(int*)e1 - *(int*)e2); 
 //}

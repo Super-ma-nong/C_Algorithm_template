@@ -1,5 +1,5 @@
-#include"Head.h"
-#include<stdio.h>
+//#include"Head.h"
+//#include<stdio.h>
 
 
 

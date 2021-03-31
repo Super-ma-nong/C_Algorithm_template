@@ -1,6 +1,6 @@
 // 结构体不熟练
 
-#include"Head.h"
+//#include"Head.h"
 //
 //typedef struct QqList
 //{
@@ -41,7 +41,7 @@
 //
 //}
 
-//// 快读排序简单版本
+//// 快速排序简单版本
 //int Partition(int arr[10], int low, int high)
 //{
 //	arr[0] = arr[low];

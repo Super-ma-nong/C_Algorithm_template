@@ -1,4 +1,4 @@
-#include"Head.h"
+//#include"Head.h"
 
 //void Print(int arr[],int n)
 //{

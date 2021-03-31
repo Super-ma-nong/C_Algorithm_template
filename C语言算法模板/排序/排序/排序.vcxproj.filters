@@ -32,7 +32,10 @@
     <ClCompile Include="快速排序.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="冒泡排序.c">
+    <ClCompile Include="冒泡排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="qsort应用练习.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

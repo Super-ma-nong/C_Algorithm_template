@@ -15,11 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="关于十进制.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Head.h">
       <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="进制拆解.c">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

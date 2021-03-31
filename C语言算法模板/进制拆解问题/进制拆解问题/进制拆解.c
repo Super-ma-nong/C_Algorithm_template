@@ -11,6 +11,7 @@ void RadixDecompose(int n)
 }
 
 /*  *****************************    */
+//(提前计数：count=1;提前输出最后一位 printf("%d",num%10);
 // while(i/=10) {  i % 10 ;  } 是基本思想，但是也要灵活变通
 
 
@@ -32,6 +33,16 @@ void RadixDecompose(int n)
 	//}
 //	return 0;
 //}
+// // 2021.3.31 再次练习一遍
+//int main() {
+//	int num = 0;
+//	scanf("%d", &num);
+//	printf("%d ", num % 10);
+//	while (num /= 10) {
+//		printf("%d ", num % 10);
+//	}
+//}
+
 
 //// 包含数字9的数
 //int main()
@@ -54,3 +65,19 @@ void RadixDecompose(int n)
 //    return 0;
 //}
 // 这题如果投机取巧大可以用一个一个数的方法---这个方法还蛮考验数数的算法（没有规律不好数）的哈
+
+// // 2021.3.31 再次练习
+//int main()
+//{
+//	int num = 0;
+//	scanf("%d", &num);
+//	while (num) {
+//		if (num % 10==9) {
+//			printf("yes");
+//			return 0;
+//		}
+//		num /= 10;
+//	}
+//	printf("no");
+//	return 0;
+//}
