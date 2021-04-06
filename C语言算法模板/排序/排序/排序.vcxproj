@@ -143,7 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="qsort应用练习.cpp" />
-    <ClCompile Include="不知名排序.c" />
+    <ClCompile Include="选择排序.c" />
     <ClCompile Include="冒泡排序.cpp" />
     <ClCompile Include="库函数排序qsort的应用.c" />
     <ClCompile Include="快速排序.c" />

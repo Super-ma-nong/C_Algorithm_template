@@ -19,7 +19,20 @@
 //		}
 //		if (flag == 0)
 //			return;
-//	}
+	/*
+	//for (int i = 1; i <= n-1; i++) {// 该循环写成这样容易辨认些
+	//	for (int j = 0; j < n - i; j++) {
+	//		if (arr[j] < arr[j + 1])
+	//		{
+	//			Exchange(arr[j], arr[j + 1]);
+	//			flag = 1;
+	//		}
+	//	}
+	//	if (flag == 0)
+	//		return;
+	//}
+	//}
+	*/
 //}
 //int main() {
 //	int n = 0;
