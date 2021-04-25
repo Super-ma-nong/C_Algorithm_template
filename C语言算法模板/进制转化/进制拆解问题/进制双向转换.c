@@ -15,6 +15,24 @@ void RadixDecompose(int n)
 // 而while(i/10)不用
 // while(i/=10) {  i % 10 ;  } 是基本思想，但是也要灵活变通
 
+// 上面的进制拆解都是拆解为逆序
+// 下面的方法，顺序是正的，但是需要知道 最高次 的权重
+/*
+int main()---又可以归结为进制拆解算法
+{
+    long long seconds = 0;
+    int arr[] = {0,0,0};
+    scanf("%lld",&seconds);
+    for(int i = 0,ctr = 3600;i<3;i++)
+    {
+        arr[i] = seconds/ctr;
+        printf("%d ",arr[i]);
+        seconds = seconds%ctr;
+        ctr = ctr/60;
+    }
+    return 0;
+}
+*/
 
 // ----------------------   进制合成为整数 ——----------------------
 
@@ -78,6 +96,9 @@ void RadixDecompose(int n)
 //    return 0;
 //}
 // 这题如果投机取巧大可以用一个一个数的方法---这个方法还蛮考验数数的算法（没有规律不好数）的哈
+
+// 时间问题 也可以归纳为进制转换
+// B23-时间转换
 
 // // 2021.3.31 再次练习
 //int main()
