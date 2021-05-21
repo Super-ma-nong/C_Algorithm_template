@@ -21,6 +21,11 @@
 //			return;
 	/*
 	//for (int i = 1; i <= n-1; i++) {// 该循环写成这样容易辨认些
+	/*
+	        for (int i = 0; i < arr.length - 1; i++) {//比较了arr.length-1 轮
+            for (int j = 0; j < arr.length - 1 - i; j++) {
+                // 从第一轮找规律，第一轮理应 j 从0到arr.length-1 变化
+	*/
 	//	for (int j = 0; j < n - i; j++) {
 	//		if (arr[j] < arr[j + 1])
 	//		{
